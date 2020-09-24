@@ -1,6 +1,6 @@
 # mapboxgljs-boilerplate
-![](https://github.com/watergis/mapboxgljs-boilerplate/workflows/Node.js%20CI/badge.svg)
-![GitHub](https://img.shields.io/github/license/watergis/mapboxgljs-boilerplate)
+![](https://github.com/nawasco/mapboxgljs/workflows/Node.js%20CI/badge.svg)
+![GitHub](https://img.shields.io/github/license/nawasco/mapboxgljs)
 [![Gitter](https://badges.gitter.im/narwassco/community.svg)](https://gitter.im/narwassco/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 This is the template of Mapbox GL JS implementation for Water Services Providers.
@@ -8,8 +8,8 @@ This is the template of Mapbox GL JS implementation for Water Services Providers
 ## Installation
 
 ```
-git clone https://github.com/watergis/mapboxgljs-boilerplate.git
-cd mapboxgljs-boilerplate
+git clone https://github.com/nawasco/mapboxgljs.git
+cd mapboxgljs
 npm i
 ```
 
@@ -86,7 +86,7 @@ When you use printed map, please includes attribution as follows.
 
 If you can include HTML, use this code snippet that includes links to Mapbox & OpenStreetMap:
 ```html
-© NARWASSCO, Ltd. © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>Powered by the United Nations Vector Tile Toolkit
+©Nanyuki Water and Sewerage Co., Ltd. © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>Powered by the United Nations Vector Tile Toolkit
 ```
 
 For print output or if you can’t include links, use this text-only attribution:

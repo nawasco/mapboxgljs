@@ -1,5 +1,5 @@
 {
-  "name": "mapboxgljs-boilerplate",
+  "name": "mapboxgljs",
   "version": "1.0.2",
   "description": "This is the template of Mapbox GL JS implementation for Water Services Providers.",
   "main": "build.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/watergis/mapboxgljs-boilerplate.git"
+    "url": "git+https://github.com/nawasco/mapboxgljs.git"
   },
   "keywords": [
     "mapbox-gl-js",
@@ -21,9 +21,9 @@
   "author": "Jin IGARASHI",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/watergis/mapboxgljs-boilerplate/issues"
+    "url": "https://github.com/nawasco/mapboxgljs/issues"
   },
-  "homepage": "https://github.com/watergis/mapboxgljs-boilerplate#readme",
+  "homepage": "https://github.com/nawasco/mapboxgljs#readme",
   "devDependencies": {
     "css-loader": "^3.6.0",
     "dotenv-webpack": "^1.8.0",

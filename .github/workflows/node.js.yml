@@ -30,8 +30,8 @@ jobs:
         echo "ACCESSTOKEN=${ACCESSTOKEN}" > .env
         echo "CNAME=${CNAME}" >> .env
         npm run build
-        git config --global user.name "watergis+githubci"
-        git config --global user.email "watergis+githubci@users.noreply.github.com"
-        git remote set-url origin https://x-access-token:${NODE_AUTH_TOKEN}@github.com/watergis/mapboxgljs-boilerplate.git
+        git config --global user.name "nawasco+githubci"
+        git config --global user.email "nawasco+githubci@users.noreply.github.com"
+        git remote set-url origin https://x-access-token:${NODE_AUTH_TOKEN}@github.com/nawasco/mapboxgljs.git
         npm run deploy
       
