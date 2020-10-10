@@ -1,4 +1,4 @@
-const version = 0.1;
+const version = 0.2;
 
 module.exports = {
     accessToken : process.env.ACCESSTOKEN,
@@ -6,8 +6,10 @@ module.exports = {
     attribution : '©Nanyuki Water and Serwerage Co., Ltd.',
     // change stylefiles URLs to yours
     styles : [
-        { title: 'Street', uri: `https://nawasco.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
-        { title: 'Satellite', uri: `https://nawasco.github.io/mapbox-stylefiles/satellite/style.json?version=${version}`,},
+        { title: 'Street(water)', uri: `https://nawasco.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
+        { title: 'Satellite(water)', uri: `https://nawasco.github.io/mapbox-stylefiles/satellite/style.json?version=${version}`,},
+        { title: 'Street(sewer)', uri: `https://nawasco.github.io/mapbox-stylefiles/street/style_sewer.json?version=${version}`,}, 
+        { title: 'Satellite(sewer)', uri: `https://nawasco.github.io/mapbox-stylefiles/satellite/style_sewer.json?version=${version}`,},
         { title: 'UN Vector Tile', uri: `https://nawasco.github.io/mapbox-stylefiles/unvt/style.json?version=${version}`,},
     ],
     // change initial location and zoom level to yours
