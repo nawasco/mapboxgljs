@@ -50,8 +50,15 @@ module.exports = {
     // please specify layer name for showing in legend panel.
     legend:{
         targets:{
+            'cadastral': 'Cadastral',
+            'cadastral-annotation': 'Cadastral Label',
+            'blocks': 'Blocks',
+            'blocks-annotation': 'Blocks Label',
+            'waterworks': 'Waterworks',
             'pipeline': 'Pipeline',
+            'pipeline_annotation': 'Pipeline Label',
             'sewerline' : 'Sewer Pipeline',
+            'sewerline_annotation': 'Sewer Pipeline Label',
             'meter': 'Consumer Meter',
             'kiosks': 'Water Kiosk',
             'borehole': 'Borehole',
@@ -59,6 +66,12 @@ module.exports = {
             'booster-pump' : 'Booster Pump',
             'chambers': 'Chamber',
             'manholes': 'Manhole'
+        },
+        options: {
+            showDefault:false,
+            showCheckbox:true,
+            reverseOrder:true,
+            onlyRendered:true
         }
     }
 }
