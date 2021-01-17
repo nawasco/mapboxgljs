@@ -38,15 +38,6 @@ module.exports = {
             'manholes',
         ]
     },
-    // please specify your covered area if you have multipul locations to do waterworks
-    // areaSwitcher: {
-    //     areas : [
-    //         {title: 'Narok',latlng: [35.87063, -1.08551],zoom: 14,}, 
-    //         {title: "Ololulung'a",latlng: [35.65072, -1.0085],zoom: 13}, 
-    //         {title: "Kilgoris",latlng: [34.87533, -1.00278],zoom: 14}, 
-    //         {title: "Suswa",latlng: [36.33078, -1.05307],zoom: 13}
-    //     ]
-    // },
     // please specify layer name for showing in legend panel.
     legend:{
         targets:{
@@ -72,6 +63,16 @@ module.exports = {
             showCheckbox:true,
             reverseOrder:true,
             onlyRendered:true
+        }
+    },
+    elevation: {
+        url: 'https://nawasco.github.io/ke-central-terrain/tiles/{z}/{x}/{y}.png',
+        options: {
+            font: ['Roboto Medium'],
+            fontSize: 12,
+            fontHalo: 1,
+            mainColor: '#263238',
+            haloColor: '#fff',
         }
     }
 }
