@@ -20,7 +20,7 @@ module.exports = {
     search:{
         url: 'https://nawasco.github.io/vt/meter.geojson',
         target: ['accountno', 'serialno'],
-        format: (p) => {return `A/C: ${p.accountno}, S/N: ${p.serial_no}, ${p.category}`},
+        format: (p) => {return `A/C: ${p.accountno}, S/N: ${p.serialno}, ${p.category}`},
         place_type: ['meter'],
         placeholder: 'Account No or S/N',
         zoom: 16,
