@@ -11,6 +11,7 @@ module.exports = {
          { title: 'Street(water)', uri: `https://nawasco.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
         { title: 'Street(sewer)', uri: `https://nawasco.github.io/mapbox-stylefiles/street/style_sewer.json?version=${version}`,}, 
         { title: 'Satellite(sewer)', uri: `https://nawasco.github.io/mapbox-stylefiles/satellite/style_sewer.json?version=${version}`,},
+        { title: 'UN Vector Tile(Buildings)', uri: `https://nawasco.github.io/mapbox-stylefiles/unvt/style-buildings.json?version=${version}`,},
         { title: 'UN Vector Tile', uri: `https://nawasco.github.io/mapbox-stylefiles/unvt/style.json?version=${version}`,},
     ],
     // change initial location and zoom level to yours
@@ -37,6 +38,7 @@ module.exports = {
             'booster-pump',
             'chambers',
             'manholes',
+            'pg-building'
         ]
     },
     // please specify layer name for showing in legend panel.
