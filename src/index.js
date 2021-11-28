@@ -8,7 +8,7 @@ import MapboxPopupControl from '@watergis/mapbox-gl-popup';
 import '@watergis/mapbox-gl-popup/css/styles.css';
 import MapboxPitchToggleControl from '@watergis/mapbox-gl-pitch-toggle-control';
 import '@watergis/mapbox-gl-pitch-toggle-control/css/styles.css';
-import MapboxLegendControl from "@watergis/mapbox-gl-legend";
+import { MapboxLegendControl } from "@watergis/mapbox-gl-legend";
 import '@watergis/mapbox-gl-legend/css/styles.css';
 import { MapboxExportControl}  from "@watergis/mapbox-gl-export";
 import '@watergis/mapbox-gl-export/css/styles.css';
