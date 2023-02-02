@@ -35,7 +35,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@mapbox/mapbox-gl-geocoder": "^4.7.0",
+    "@mapbox/mapbox-gl-geocoder": "^4.7.4",
     "@watergis/mapbox-gl-elevation": "^1.0.3",
     "@watergis/mapbox-gl-export": "^1.2.14",
     "@watergis/mapbox-gl-legend": "^1.2.1",
